@@ -7,3 +7,4 @@ class Program
         Console.WriteLine("Hello World!");
     }
 }
+feat: adiciona projeto console
