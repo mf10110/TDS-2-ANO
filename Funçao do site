@@ -1,0 +1,31 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Digite seu nome");
+        string name = Console.ReadLine();
+
+        Console.WriteLine("Digite sua senha");
+        string code = Console.ReadLine();
+
+        if (code == "1234" && name == "sla")
+        {
+            Console.WriteLine("Logado com sucesso");
+        }
+        else
+        {
+            Console.WriteLine("senha ou nome esta errado,tente novamente");
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
