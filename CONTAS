@@ -1,0 +1,24 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+    Console.WriteLine ("Digite primeiro numero");
+    int num = int.Parse(Console.ReadLine());
+     Console.WriteLine ("Digite o segundo numero");
+    int num2 = int.Parse(Console.ReadLine());
+    
+    int conta1 = num + num2;
+    int conta2 = num - num2;
+    int conta3 = num * num2;
+    double conta4 = num  num2;
+    
+    Console.WriteLine ("Os resultados foram");
+    Console.WriteLine ("Soma: " + conta1);
+    Console.WriteLine ("Subtracao : " + conta2);
+    Console.WriteLine ("Multipliçao: " + conta3);
+    Console.WriteLine ("Divisao: " + conta4);
+        
+    }
+}
