@@ -1,0 +1,31 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine ("===============MENU===============");
+        Console.WriteLine ("1- Soma");
+        Console.WriteLine ("2- Subtrair");
+        Console.WriteLine ("3- Multiplicacao");
+        Console.WriteLine ("4- Dividir");
+        int day = int.Parse(Console.ReadLine());
+        switch (day) 
+        
+{
+  case 1:
+   Console.WriteLine ("escreva o primeiro numero");
+    int num1 = int.Parse(Console.ReadLine());
+   Console.WriteLine ("escreva o segundo numero");
+   int num2 = int.Parse(Console.ReadLine());
+   int conta = num1 + num2;
+   Console.WriteLine ("O resultado da soma: " + conta);
+    break;
+  case 2:
+   Console.WriteLine ("escreva o primeiro numero");
+    int num3 = int.Parse(Console.ReadLine());
+   Console.WriteLine ("escreva o segundo numero");
+   int num4 = int.Parse(Console.ReadLine());
+   int conta2 = num3 - num4;
+Console.WriteLine ("O resultado da subtraçao: " + conta2);
+    break;
