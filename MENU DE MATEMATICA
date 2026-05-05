@@ -1,0 +1,30 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine ("======MENU======");
+        Console.WriteLine ("1- soma");
+        Console.WriteLine ("2- subtraçao");
+        Console.WriteLine ("3- multiplicacao");
+        Console.WriteLine ("4-divisao");
+        int opc = int.Parse(Console.ReadLine());
+        switch (opc) 
+{
+  case 1:
+    Console.WriteLine ("Digite o primeiro numero");
+     int num1 = int.Parse(Console.ReadLine());
+      Console.WriteLine ("Digite o segundo numero");
+     int num2 = int.Parse(Console.ReadLine());
+     int soma = num1 + num2;
+     Console.WriteLine ("Resultado:" + soma);
+     break;
+  case 2:
+  Console.WriteLine ("Digite o primeiro numero");
+   int num3 = int.Parse(Console.ReadLine());
+      Console.WriteLine ("Digite o segundo numero");
+     int num4 = int.Parse(Console.ReadLine());
+     int soma2 = num3 - num4 ;
+     Console.WriteLine ("Resultado:" + soma2 );
+    break;
